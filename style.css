@@ -1,0 +1,13 @@
+canvas{
+    animation-name: water_play;
+    animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes water_play {
+    from{box-shadow: 5px 5px 40px hotpink;}
+    to{box-shadow: 5px 5px 40px #7fb7eb;}
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
